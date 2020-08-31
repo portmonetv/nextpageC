@@ -1,0 +1,27 @@
+<html><script>
+a = [];
+a[0]='https://portmonetv.github.io/simplebot1/C/index.html';  
+a[1]='https://portmonetv.github.io/simplebot2/C/index.html';
+a[2]='https://portmonetv.github.io/simplebot3/C/index.html';
+a[3]='https://portmonetv.github.io/simplebot4/C/index.html';
+a[4]='https://portmonetv.github.io/simplebot5/C/index.html';  
+a[5]='https://portmonetv.github.io/simplebot6/C/index.html';
+a[6]='https://portmonetv.github.io/simplebot7/C/index.html';
+a[7]='https://portmonetv.github.io/simplebot8/C/index.html';
+a[8]='https://portmonetv.github.io/simplebot9/C/index.html';  
+a[9]='https://portmonetv.github.io/simplebot10/C/index.html';
+var i;
+i = 0;
+function schet(){
+  document.getElementById('output').value = a[i];
+
+  if (i == a.length -1) {
+    i = 0;
+  } else {
+    i++
+  }
+}
+ 
+</script>
+<input type="button" value="Следующий" onclick="schet()"> Текст: <input id="output" type="text">
+</html>
